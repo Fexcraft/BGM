@@ -4,7 +4,8 @@
     "textures": {
       "#fmt_material": "bgm:blocks/block0"
     },
-    "model": "bgm:block0.obj"
+    "model": "bgm:block0.obj",
+    "transform": "forge:default-block"
   },
   "variants": {
     "color": {

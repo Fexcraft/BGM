@@ -9,9 +9,13 @@ import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.World;
 
 @fBlock(modid = "bgm", name = "block0", variants = 16, item = Block0.IB.class, custom_variants = { "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black" })
 public class Block0 extends BlockFalling {
@@ -51,6 +55,11 @@ public class Block0 extends BlockFalling {
     @Override
     protected BlockStateContainer createBlockState(){
         return new BlockStateContainer(this, new IProperty[]{ COLOURS });
+    }
+    
+    @Override
+    public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player){
+        return new ItemStack(this, 1, state.getValue(COLOURS));
     }
     
     public static class IB extends ItemBlock {
