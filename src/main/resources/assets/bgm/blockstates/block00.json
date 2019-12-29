@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "normal": { "model": "bgm:block0.obj" },
+        "color=0": { "model": "bgm:block0_white.obj" },
+        "color=1": { "model": "bgm:block0_orange.obj" },
+        "color=2": { "model": "bgm:block0_magenta.obj" },
+        "color=3": { "model": "bgm:block0_light_blue.obj" },
+        "color=4": { "model": "bgm:block0_yellow.obj" },
+        "color=5": { "model": "bgm:block0_lime.obj" },
+        "color=6": { "model": "bgm:block0_pink.obj" },
+        "color=7": { "model": "bgm:block0_gray.obj" },
+        "color=8": { "model": "bgm:block0_silver.obj" },
+        "color=9": { "model": "bgm:block0_cyan.obj" },
+        "color=10": { "model": "bgm:block0_purple.obj" },
+        "color=11": { "model": "bgm:block0_blue.obj" },
+        "color=12": { "model": "bgm:block0_brown.obj" },
+        "color=13": { "model": "bgm:block0_green.obj" },
+        "color=14": { "model": "bgm:block0_red.obj" },
+        "color=15": { "model": "bgm:block0_black.obj" }
+    }
+}

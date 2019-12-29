@@ -1,0 +1,93 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "bgm:blocks/block0"
+    },
+    "model": "bgm:block0.obj"
+  },
+  "variants": {
+    "color": {
+      "0": {
+        "textures": {
+          "all": "bgm:blocks/block0_white"
+        }
+      },
+      "1": {
+        "textures": {
+          "all": "bgm:blocks/block0_orange"
+        }
+      },
+      "2": {
+        "textures": {
+          "all": "bgm:blocks/block0_magenta"
+        }
+      },
+      "3": {
+        "textures": {
+          "all": "bgm:blocks/block0_light_blue"
+        }
+      },
+      "4": {
+        "textures": {
+          "all": "bgm:blocks/block0_yellow"
+        }
+      },
+      "5": {
+        "textures": {
+          "all": "bgm:blocks/block0_lime"
+        }
+      },
+      "6": {
+        "textures": {
+          "all": "bgm:blocks/block0_pink"
+        }
+      },
+      "7": {
+        "textures": {
+          "all": "bgm:blocks/block0_gray"
+        }
+      },
+      "8": {
+        "textures": {
+          "all": "bgm:blocks/block0_silver"
+        }
+      },
+      "9": {
+        "textures": {
+          "all": "bgm:blocks/block0_cyan"
+        }
+      },
+      "10": {
+        "textures": {
+          "all": "bgm:blocks/block0_purple"
+        }
+      },
+      "11": {
+        "textures": {
+          "all": "bgm:blocks/block0_blue"
+        }
+      },
+      "12": {
+        "textures": {
+          "all": "bgm:blocks/block0_brown"
+        }
+      },
+      "13": {
+        "textures": {
+          "all": "bgm:blocks/block0_green"
+        }
+      },
+      "14": {
+        "textures": {
+          "all": "bgm:blocks/block0_red"
+        }
+      },
+      "15": {
+        "textures": {
+          "all": "bgm:blocks/block0_black"
+        }
+      }
+    }
+  }
+}

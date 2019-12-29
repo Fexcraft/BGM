@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import net.fexcraft.lib.mc.network.SimpleUpdateHandler;
 import net.fexcraft.lib.mc.registry.FCLRegistry;
 import net.fexcraft.lib.mc.registry.FCLRegistry.AutoRegisterer;
+import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -21,6 +22,7 @@ public class BGM {
 	public static final String NAME = "Board Game Mod";
 	public static final String ADMIN_PERM = "bgm.admin";
 	public static final String PREFIX = "&1[&2BGM&1]";
+	public static final String[] COLOURS = new String[16];
 	//
 	@Mod.Instance(MODID)
 	public static BGM INSTANCE;
@@ -29,7 +31,7 @@ public class BGM {
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event){
-        LOGGER = event.getModLog(); REG = FCLRegistry.newAutoRegistry(MODID);
+        LOGGER = event.getModLog(); REG = FCLRegistry.newAutoRegistry(MODID); OBJLoader.INSTANCE.addDomain("bgm");
 	}
 	
 	@Mod.EventHandler
